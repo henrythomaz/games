@@ -30,8 +30,17 @@ main {
     margin-top: 1%;
     padding-top: 25%;
 }
+.pokemon__image {
+  bottom: 42%;
+}
 .pokedex {
     width: 95%;
+}
+.pokemon__data {
+  top: 64.5%;
+}
+.input__search {
+  margin-top: 70px;
 }
 }
 
@@ -43,14 +52,22 @@ main {
     main {
     margin-top: 15%;
 }
+.pokemon__image {
+  bottom: 55%;
+}
+.pokemon__data {
+  top: 54.5%;
+}
 .pokedex {
     width: 100%;
+}
+.input__search {
+  margin-top: 0px;
 }
 }
 
 .pokemon__image {
     position: absolute;
-    bottom: 55%;
     left: 50%;
     transform: translate(-63%, 20%);
     height: 18%;
@@ -60,7 +77,6 @@ main {
     position: absolute;
     font-weight: 600;
     color: #aaa;
-    top: 54.5%;
     right: 27%;
     font-size: clamp(8px, 5vw, 25px);
 }
